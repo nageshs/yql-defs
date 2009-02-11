@@ -9,11 +9,6 @@
       <urls>
         <url>http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AWSAccessKeyId={api_key}&amp;Operation=ItemSearch&amp;SearchIndex=Books&amp;Version=2008-08-19</url>
       </urls>
-      <paging model="page">
-        <start default="0" id="page"/>
-        <pagesize max="200" id="count"/>
-        <total default="20"/>
-      </paging>
       <inputs>
         <key id="Title" type="xs:string" paramType="query" required="true"/>
         <key id="api_key" type="xs:string" paramType="path" required="true"/>
