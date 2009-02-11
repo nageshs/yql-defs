@@ -5,7 +5,7 @@
     <documentationURL>http://docs.amazonwebservices.com/AWSECommerceService/2009-01-06/GSG/</documentationURL>
   </meta>
   <bindings>
-    <select itemPath="feed.entry" produces="XML">
+    <select itemPath="" produces="XML">
       <urls>
         <url>http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AWSAccessKeyId={api_key}&amp;Operation=ItemSearch&amp;SearchIndex=Books&amp;Version=2008-08-19</url>
       </urls>
