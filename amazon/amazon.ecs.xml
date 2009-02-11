@@ -7,7 +7,7 @@
   <bindings>
     <select itemPath="feed.entry" produces="XML">
       <urls>
-        <url>http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&AWSAccessKeyId={api_key}&amp;Operation=ItemSearch&amp;SearchIndex=Books&Version=2008-08-19</url>
+        <url>http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AWSAccessKeyId={api_key}&amp;Operation=ItemSearch&amp;SearchIndex=Books&Version=2008-08-19</url>
       </urls>
       <paging model="page">
         <start default="0" id="page"/>
